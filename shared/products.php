@@ -200,6 +200,63 @@ include '../db/DBcon.php';
       </div>
     </div><!-- End Page Title -->
 
+    <div class="container text-center">
+
+<div class="shell">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="wsk-cp-product">
+          <div class="wsk-cp-img">
+            <img src="../assets/img/products/cinnomon.jpg" alt="Product" class="img-responsive" onclick="window.location.href='cinnamon.php'" />
+          </div>
+          <div class="wsk-cp-text">
+            <div class="title-product">
+              <h3>Cinnamon</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="wsk-cp-product">
+          <div class="wsk-cp-img">
+            <img src="../assets/img/products/kithul.jpg" alt="Product" class="img-responsive" onclick="window.location.href='kithul.php'"/>
+          </div>
+          <div class="wsk-cp-text">
+            <div class="title-product">
+              <h3>Kithul</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="wsk-cp-product">
+          <div class="wsk-cp-img">
+            <img src="../assets/img/products/tea.jpg" alt="Product" class="img-responsive" onclick="window.location.href='tea.php'"/>
+          </div>
+          <div class="wsk-cp-text">
+            <div class="title-product">
+              <h3>Handmade Tea</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="wsk-cp-product">
+          <div class="wsk-cp-img">
+            <img src="../assets/img/products/dry_fish.jpg" alt="Product" class="img-responsive" onclick="window.location.href='dry_fish.php'"/>
+          </div>
+          <div class="wsk-cp-text">
+            <div class="title-product">
+              <h3>Dry Fish</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
     <div class="container-fluid">
   <div class="row gallery" id="gallery">
     <div class="imgWrap imgWrap1" style="background-image: url(../assets/img/products/cinnomon.jpg);" onclick="window.location.href='cinnamon.php'">
