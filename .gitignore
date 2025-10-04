@@ -34,10 +34,28 @@ temp/
 cache/
 uploads/temp/
 
+# Asset build output (JS/CSS source maps)
+assets/js/*.map
+assets/css/*.map
+
+# Ignore uploads and generated files (product images/videos)
+assets/img/products/
+assets/videos/products/
+
 # Backup files
 *.bak
 *.backup
 *.old
+
+# Test output
+coverage/
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Shared session files
+shared/session_active.php
 
 # Composer (if using)
 vendor/
