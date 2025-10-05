@@ -276,14 +276,8 @@ $result = $conn->query($sql);
             </div>
             <div class="member-info text-center">
               <h4><?php echo htmlspecialchars($row['name']); ?></h4>
-              <span>Seller: <?php echo htmlspecialchars($row['seller_name']); ?></span>
-              <?php if(!empty($video_url)): ?>
-                <div class="product-actions mt-3">
-                  <button onclick="openVideoModal('<?php echo $product_id; ?>')" class="btn btn-primary btn-sm">
-                    <i class="bi bi-play-circle"></i> Watch Video
-                  </button>
-                </div>
-              <?php endif; ?>
+              <span><?php echo htmlspecialchars($row['seller_name']); ?></span>
+              
             </div>
             
             <?php if (!empty($video_url)): ?>
