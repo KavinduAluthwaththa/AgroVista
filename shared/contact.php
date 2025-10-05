@@ -120,7 +120,7 @@ include 'session_active.php';
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit" class="contact-button">Send Message</button>
                 </div>
 
               </div>
